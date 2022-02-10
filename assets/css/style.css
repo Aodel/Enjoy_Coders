@@ -82,6 +82,12 @@ padding-top: 30px;
 padding-bottom: 30px;
 }
 
+.knowledge img {
+
+    height: 199px;
+    padding: 20px;
+}
+
 h2{
     font-size: 48px;
 }
