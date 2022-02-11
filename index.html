@@ -6,17 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EnjoyCoders!</title>
     <link href="./assets/css/style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="responsive-nav.css">
+    <script src="responsive-nav.js"></script>
 </head>
 <body>
 
     <h1 class="logo">EnjoyCoders!</h1>
 
-    <div class="menu">
-        <a href="#Team"class="botonteam">TEAM</a>
-        <a href="#Members"class="botonmembers">MEMBERS</a>
-        <a href="#Knowledge"class="botonknowledge">KNOWLEDGE</a>
-        <a href="#Contact"class="botoncontact">CONTACT</a>
-    </div>
+
+    <nav class="menu">
+        <ul>
+            <li><a href="#Team"class="botonteam">TEAM</a></li>
+            <li></li><a href="#Members"class="botonmembers">MEMBERS</a></li>
+            <li></li><a href="#Knowledge"class="botonknowledge">KNOWLEDGE</a></li>
+            <li><a href="#Contact"class="botoncontact">CONTACT</a></li>
+        </ul>
+    </nav>
 
     <div><img class="coworkimage" src="https://i.postimg.cc/0QSp5d8c/80-Y2.png"></div>
 
@@ -56,6 +61,11 @@
     </form>
     </div>
     
+    <script>
+        var nav = responsiveNav(".menu");
+    </script>
+
+    </body>
     <footer>
         <p> <a href="mailto:enjoycoders@gmail.com">Email: enjoycoders@gmail.com</a></p>
         <br>
@@ -66,6 +76,4 @@
         </a></p>
     </footer>
 
-
-</body>
 </html>

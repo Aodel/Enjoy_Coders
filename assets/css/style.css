@@ -6,13 +6,14 @@ background: linear-gradient(90deg, #00F5A0 0%, #00D9F5 100%);
 }
 .logo {
 
-
-    display:flex;
-    justify-content: center;
+    text-align:center;
+    /*display:flex;
+    justify-content: center;*/
     font-family: 'Atma', cursive;
-    font-size: 120px;
-    color: #c58000;
-    -webkit-text-stroke: #0c0b0b 5px;
+    font-size: 350%;
+    -webkit-text-stroke:#000000 3px ;
+    color:#dd95bf
+ 
 }
 .coworkimage {
     display:block;
@@ -20,18 +21,28 @@ background: linear-gradient(90deg, #00F5A0 0%, #00D9F5 100%);
     margin-left: auto;
     width: 40%;
 }
+
 .menu {
-    display:flex;
+    background: rgb(11,170,160);
+background: linear-gradient(90deg, rgba(11,170,160,1) 0%, rgba(225,97,236,1) 86%, rgba(204,95,174,1) 95%, rgba(200,155,251,1) 100%);
+    display: flex;
     justify-content: center;
-    gap: 100px;
 }
+.menu li {
+    display: inline-block;
+    justify-content: center;
+    padding: 10px;
+
+}
+
+
 a {
     text-decoration: none;
     color: #000000;
     background: linear-gradient(90deg, #C8E6ED 0%, #6DD5ED 100%);
     border: black 4px solid;
     border-radius: 8px;
-    font-size: 24px;
+    font-size: 180%;
     width: 250px;
    text-align: center;
    padding: 10px;
@@ -92,7 +103,6 @@ display:flex;
 justify-content: center;
 padding-top: 30px;
 padding-bottom: 30px;
-
 
 }
 
